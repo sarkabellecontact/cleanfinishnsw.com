@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleaning Services Sydney & NSW | Post a Job or Find Work | CleanFinish</title>
+  <meta name="description" content="Need a cleaner in Sydney or NSW? Post your job in minutes and get matched with trusted local professionals. Or find cleaning work near you — offices, retail, homes and more." />
+  <meta name="keywords" content="cleaning jobs Sydney, office cleaning NSW, post cleaning job, find cleaning work Sydney, commercial cleaning provider NSW" />
+  <link rel="canonical" href="https://www.cleanfinishnsw.com/jobs/" />
+  <meta property="og:title" content="Cleaning Services NSW | CleanFinish" />
+  <meta property="og:description" content="Post a cleaning job or find cleaning work across Sydney and NSW. Fast, simple, free to start." />
+  <meta property="og:url" content="https://www.cleanfinishnsw.com/jobs/" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --green: #1a7a4a; --green-light: #2a9d6a; --green-pale: #e8f5ee;
+      --charcoal: #1c1c1c; --mid: #555; --light: #f5f7f5; --white: #ffffff; --radius: 12px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; color: var(--charcoal); background: var(--white); line-height: 1.6; }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,255,255,0.95); backdrop-filter: blur(8px);
+      border-bottom: 1px solid #e8ede9;
+      padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 64px;
+    }
+    .nav-logo { font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: var(--green); text-decoration: none; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--mid); font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--green); }
+    .nav-cta { background: var(--green); color: var(--white) !important; padding: 0.45rem 1.1rem; border-radius: 50px; }
+
+    .page-hero {
+      background: var(--green); color: white;
+      padding: 4rem 5%;
+      text-align: center;
+    }
+    .page-hero h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 0.8rem; }
+    .page-hero p { font-size: 1.05rem; opacity: 0.88; max-width: 520px; margin: 0 auto; }
+
+    .cards-wrap {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 2rem; max-width: 900px; margin: 4rem auto; padding: 0 5%;
+    }
+
+    .job-card {
+      border-radius: 20px; padding: 3rem 2.5rem;
+      text-decoration: none; color: inherit;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex; flex-direction: column;
+    }
+    .job-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.1); }
+    .job-card.green { background: var(--green); color: white; }
+    .job-card.light { background: var(--light); border: 2px solid #d0e6d8; }
+
+    .job-card .icon { font-size: 3rem; margin-bottom: 1rem; }
+    .job-card h2 { font-family: 'DM Serif Display', serif; font-size: 1.7rem; margin-bottom: 0.6rem; }
+    .job-card p { font-size: 0.9rem; opacity: 0.85; margin-bottom: 1.5rem; flex: 1; }
+    .job-card ul { list-style: none; font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.4rem; }
+    .job-card ul li::before { content: "✓  "; font-weight: 700; }
+    .job-card.light ul li::before { color: var(--green); }
+    .job-card .cta-btn {
+      display: inline-block; padding: 0.7rem 1.5rem; border-radius: 50px;
+      font-weight: 600; font-size: 0.9rem; text-decoration: none; text-align: center;
+    }
+    .job-card.green .cta-btn { background: white; color: var(--green); }
+    .job-card.light .cta-btn { background: var(--green); color: white; }
+
+    .services-section { padding: 3rem 5% 5rem; max-width: 1100px; margin: 0 auto; }
+    .section-tag { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green); margin-bottom: 0.6rem; }
+    h3.section-h { font-family: 'DM Serif Display', serif; font-size: 1.8rem; margin-bottom: 0.8rem; }
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem; }
+    .service-pill {
+      background: var(--green-pale); border-radius: var(--radius);
+      padding: 1rem 1.2rem; font-size: 0.88rem; font-weight: 500; color: var(--green);
+    }
+
+    footer { background: var(--charcoal); color: rgba(255,255,255,0.7); padding: 2.5rem 5%; font-size: 0.85rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
+    .footer-logo { font-family: 'DM Serif Display', serif; color: white; font-size: 1.1rem; }
+    .footer-bottom { background: var(--charcoal); border-top: 1px solid rgba(255,255,255,0.08); text-align: center; padding: 1rem 5%; font-size: 0.78rem; color: rgba(255,255,255,0.4); }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .cards-wrap { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="/">CleanFinish</a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/jobs/" class="active">Services</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="/jobs/request-a-service/" class="nav-cta">Post a Job</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <h1>Cleaning Services Across NSW</h1>
+    <p>Choose the option that fits you. Both take just a few minutes and are free to get started.</p>
+  </div>
+
+  <div class="cards-wrap">
+    <a class="job-card green" href="/jobs/request-a-service/">
+      <div class="icon">🏢</div>
+      <h2>I Need Work Done</h2>
+      <p>Post your cleaning or service job and get matched with trusted local professionals across Sydney and NSW.</p>
+      <ul>
+        <li>Office & commercial cleaning</li>
+        <li>End of lease & bond cleans</li>
+        <li>Retail, cafes & hospitality</li>
+        <li>One-off or regular bookings</li>
+      </ul>
+      <span class="cta-btn">Request a Service →</span>
+    </a>
+    <a class="job-card light" href="/jobs/provide-a-service/">
+      <div class="icon">🧹</div>
+      <h2>I'm Looking for Work</h2>
+      <p>Find cleaning jobs near you across Sydney, Parramatta, Newcastle, Wollongong and all of NSW.</p>
+      <ul>
+        <li>Jobs that fit your schedule</li>
+        <li>Work in your local area</li>
+        <li>No agency fees or cuts</li>
+        <li>Direct client relationships</li>
+      </ul>
+      <span class="cta-btn">Provide a Service →</span>
+    </a>
+  </div>
+
+  <div class="services-section">
+    <div class="section-tag">What We Cover</div>
+    <h3 class="section-h">Services available across NSW</h3>
+    <p style="color: var(--mid); max-width: 560px;">From Sydney CBD offices to regional NSW, CleanFinish connects you with the right professional for the job.</p>
+    <div class="services-grid">
+      <div class="service-pill">🏢 Office Cleaning</div>
+      <div class="service-pill">🛍️ Retail Cleaning</div>
+      <div class="service-pill">🏠 End of Lease / Bond</div>
+      <div class="service-pill">🏗️ Post-Construction</div>
+      <div class="service-pill">🪟 Window Cleaning</div>
+      <div class="service-pill">🛋️ Carpet & Upholstery</div>
+      <div class="service-pill">🏫 Schools & Institutions</div>
+      <div class="service-pill">🍽️ Hospitality & Cafes</div>
+      <div class="service-pill">🏥 Medical Facilities</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">CleanFinish NSW</div>
+    <div>📧 <a href="mailto:info@cleanfinishnsw.com">info@cleanfinishnsw.com</a> &nbsp;|&nbsp; 💬 <a href="https://wa.me/61456705366">0456 705 366</a></div>
+    <div><a href="/">Home</a> &nbsp;|&nbsp; <a href="/contact/">Contact</a></div>
+  </footer>
+  <div class="footer-bottom">© 2025 CleanFinish NSW · Sydney, New South Wales, Australia</div>
+
+</body>
+</html>
